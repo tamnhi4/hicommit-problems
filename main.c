@@ -2,13 +2,8 @@
 
 int main() {
   
-	int distance;
-	int oder_value;
-	int tienship;
-	printf("distance=");
-	scanf("%d",&distance);
-	printf("oder_value=");
-	scanf("%d",&oder_value);
+	int distance, oder_value;
+	scanf("%d %d", &distance, &oder_value);
 	if(distance<=0||oder_value<0){
 		printf("INVALID\n");
 	}
