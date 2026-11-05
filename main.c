@@ -9,15 +9,18 @@ int main() {
   }
   else if(dtb>=8.0 && dtb<9.0||dtb>=9.0){
     if(drl>=90||drl>=80 && drl<90){
-    printf("HOC_BONG_GIOI");}
+    printf("HOC_BONG_GIOI");
+    }
   }
   else if(dtb>=7.0 && dtb<8.0||dtb>=8.0 && dtb<9.0||dtb>=90){
     if(drl>=80 && drl<90||drl>=70 && drl<80||drl>=90){
-    printf("HOC_BONG_KHA");}
+    printf("HOC_BONG_KHA");
+    }
   }
   else{
     if(dtb<7.0||drl<70){
-    printf("KHONG_DAT");}
+    printf("KHONG_DAT");
+    }
   }
   return 0;
 }
