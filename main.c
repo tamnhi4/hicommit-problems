@@ -4,13 +4,13 @@ int main() {
   float dtb,drl;
   scanf("%f",&dtb);
   scanf("%f",&drl);
-  if(dtb==xuatsac&&drl==xuatsac){
+  if(dtb>=9.0&&drl>=90){
     printf("HOC_BONG_XUAT_SAC");
   }
-  else if(dtb==gioi&&drl==tot||dtb==gioi&&drl==xuatsac||dtb==xuatsac&&drl==tot){
+  if(dtb>=8.0&&dtb<9.0&&drl>=80&&drl<90||dtb>=8.0&&dtb<9.0&&drl>=90||dtb>=9.0&&drl>=80&&drl<90){
     printf("HOC_BONG_GIOI");
   }
-  else if(dtb==kha&&drl==kha||dtb==kha&&drl==tot||dtb==kha&&drl==xuatsac||dtb==gioi&&drl=kha||dtb==xuatsac&&drl==kha){
+  else if(dtb>=7.0&&dtb<8.0&&drl>=70&&drl<80||dtb>=7.0&&dtb<8.0&&drl>=80&&drl<90||dtb>=7.0&&dtb<8.0&&drl>=90||dtb>=8.0&7dtb<9.0&&drl>=70&&drl<80||dtb>=90&&drl>=70&&drl<80){
     printf("HOC_BONG_KHA");
   }
   else{
