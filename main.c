@@ -4,7 +4,7 @@ int main() {
   float dtb,drl;
   scanf("%f",&dtb);
   scanf("%f",&drl);
-  if(dtb==xuatsac&&drl==xuat sac){
+  if(dtb==xuatsac&&drl==xuatsac){
     printf("HOC_BONG_XUAT_SAC");
   }
   else if(dtb==gioi&&drl==tot||dtb==gioi&&drl==xuatsac||dtb==xuatsac&&drl==tot){
