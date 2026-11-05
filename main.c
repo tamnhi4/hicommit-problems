@@ -16,7 +16,8 @@ int main() {
     printf("HOC_BONG_KHA");}
   }
   else{
-    printf("KHONG_DAT");
+    if(dtb<7.0&&drl<70){
+    printf("KHONG_DAT");}
   }
   return 0;
 }
